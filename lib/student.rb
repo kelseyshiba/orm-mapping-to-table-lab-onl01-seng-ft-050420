@@ -16,6 +16,7 @@ class Student
       grade INTEGER
       );
     SQL
+    
     DB[:conn].execute(sql)
   end
   
@@ -24,5 +25,5 @@ class Student
       DROP TABLE songs;
     SQL
     
-  
+    DB[:conn].execute(sql)
 end
