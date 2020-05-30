@@ -37,9 +37,8 @@ class Student
   end
   
   def self.create  
-  #name: #grade
-  #instantiate a new student object 
-  #save that new object 
-  #return the object
+    new_student = Student.new(name:, grade:)
+    new_student.save
+    new_student
   end
 end
